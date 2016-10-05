@@ -4,64 +4,79 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+      <title>Portfolio</title>
     <link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/app.css">
     <link rel="stylesheet" href="css/css.css">
   </head>
   <body>
     <div class="row">
-      <div class="large-12 columns">
-        <h3 align="right">Edward Schaefer</h3>
-        <h5 align="right">Full Stack Samurai</h5>
+      <div class="large-12 medium-12 small-12 columns rfloat">
+        <div class="large-10 medium-10 small-12 columns rfloat">
+      	  <div class="large-4 medium-4 small-4 columns">
+            <img src="img/ulogo.jpg" alt="Udacity logo">
+      	  </div>
+      	  <div class="large-8 medium-8 small-8 columns rfloat">
+            <h3 class="right-align">Edward Schaefer</h3>
+            <h5 class="right-align">Full Stack Samurai</h5>
+      	  </div>
+        </div>
       </div>
-    </div>
     <div class="row">
-      <div class="large-3 columns">
-        <div class="large-12 medium-12 small-4 columns" style="background-color:#02b3e4;">
-        test
+      <div class="large-2 medium-2 small-12 columns">
+        <div class="large-12 medium-12 small-4 columns">
+          <div class="square" style="background-color:#02b3e4;">
+          </div>
+          <p class="center">#02b3e4</p>
         </div>
-        <div class="large-12 medium-12 small-4 columns" style="background-color:#2d3c49;">
-        test
+        <div class="large-12 medium-12 small-4 columns">
+          <div class="square" style="background-color:#2d3c49;">
+          </div>
+          <p class="center">#2d3c49</p>
         </div>
-        <div class="large-12 medium-12 small-4 columns" style="background-color:#7d97ad;">
-        test
+        <div class="large-12 medium-12 small-4 columns">
+          <div class="square" style="background-color:#004cc6;">
+          </div>
+          <p class="center">#004cc6</p>
         </div>
       </div>
-      <div class="large-9 medium-9 small-12 columns right">
+      <div class="large-10 medium-10 small-12 columns">
       <HR>
         <div class="row">
-          <div class="large-12 columns">
-            <img src="img/binary.jpg">
+          <div class="large-12 medium-12 small-12 columns">
+            <img data-interchange="[img/binary50.jpg, small], [img/binary.jpg, medium], [img/binary50.jpg, large]" alt="binary">
           </div>
         </div>
-        <h3>Featured Work</h3>
+        <div class="large-12 medium-12 small-11 rfloat">
+          <h3 class="large-12 medium-12 small-12">Featured Work</h3>
+        </div>
         <div class="row">
-          <div class="large-4 medium-4 small-12 columns center">  
+          <div class="large-4 medium-4 small-12 columns center">
             <a href="https://github.com/EdwardSchaefer/interval-cycles">
-            <img data-interchange="[img/tone.jpg, (default)], [img/tone50.jpg, (small)]"></div></a>
-            Interval Cycles
+            <img data-interchange="[img/tone50.jpg, small], [img/tone.jpg, medium], [img/tone.jpg, large]" alt="tone map"></a>
+              <h4>Interval Cycles</h4>
+            <a href="https://github.com/EdwardSchaefer/interval-cycles"><p class="link">https://github.com/EdwardSchaefer/interval-cycles</p></a>
           </div>
           <div class="large-4 medium-4 small-12 columns center">
             <a href="https://github.com/EdwardSchaefer/movie-trailer-website">
-            <img src="img/trailers.jpg"></a>
-            Movie Trailer Website
+            <img data-interchange="[img/trailers50.jpg, small], [img/trailers.jpg, medium] [img/trailers.jpg, large]" alt="movei trailer website"></a>
+              <h4>Movie Trailer Website</h4>
+            <a href="https://github.com/EdwardSchaefer/movie-trailer-website"><p class="link">https://github.com/EdwardSchaefer/movie-trailer-website</p></a>
           </div>
           <div class="large-4 medium-4 small-12 columns center">
             <a href="https://github.com/EdwardSchaefer/portfolio">
-            <img src="img/recursive.jpg"></a>
-            Portfolio
-            </div>
+            <img data-interchange="[img/recursive50.jpg, small], [img/recursive.jpg, medium], [img/recursive.jpg, large]" alt="recursive image"></a>
+              <h4>Portfolio</h4>
+            <a href="https://github.com/EdwardSchaefer/portfolio"><p class="link">https://github.com/EdwardSchaefer/portfolio</p></a>
+          </div>
         </div>
       </div>
+    </div>
     </div>
     <script src="js/vendor/jquery.js"></script>
     <script src="js/vendor/what-input.js"></script>
     <script src="js/vendor/foundation.min.js"></script>
-    <script type="text/javascript" src="js/foundation.interchange.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.2.3/plugins/foundation.interchange.js"></script>
     <script src="js/app.js"></script>
-    <script>
-      $(document).foundation();
-    </script>
   </body>
 </html>
