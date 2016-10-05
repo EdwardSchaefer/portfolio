@@ -2,6 +2,13 @@ This project is a responsive webpage developed with HTML, CSS, and the Foundatio
 framework. It uses responsive design to display on devices with variably sized 
 viewports. The content includes various web development projects. 
 
+#10/5/2016 Update
+-----------------
+
+	*Added semantic HTML tags
+	*Moved background colors to CSS
+	*Added src to images in case Javascript is not working
+
 #10/4/2016 Update
 -----------------
 
